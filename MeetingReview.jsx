@@ -9,7 +9,7 @@ const T = {
   bgHover:       "#EEEEEE",
   textPrimary:   "#333333",
   textSecondary: "#666666",
-  textTertiary:  "#999999",
+  textTertiary:  "#909090",
   textDisabled:  "#BBBBBB",
   textOnBrand:   "#FFFFFF",
   borderSubtle:  "#E8E8E8",
@@ -870,7 +870,7 @@ export default function App() {
           <rect x="3" y="13" width="8" height="8" rx="2" fill={T.textPrimary} opacity="0.45"/>
           <rect x="13" y="13" width="8" height="8" rx="2" fill={T.textPrimary} opacity="0.18"/>
         </svg>
-        <span style={{ color: T.textPrimary, fontWeight: 600, fontSize: 14, whiteSpace: "nowrap" }}>Meeting Review</span>
+        <span style={{ color: T.textPrimary, fontWeight: 600, fontSize: 16, whiteSpace: "nowrap" }}>Meeting Review</span>
         <span style={{ color: T.textDisabled }}>·</span>
         <span style={{ color: T.textTertiary, fontSize: 13, whiteSpace: "nowrap" }}>Q3 Roadmap Sync — 1h 18m</span>
 
